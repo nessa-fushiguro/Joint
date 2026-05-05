@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joint</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/Copia de Joint.png">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-flex">
+            <div class="logo">
+                <img src="./img/Copia de Joint.png" alt="Logo Joint">
+                <span>Joint</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#" id="open-faq">FAQ</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1 class="hero-title">Safe and Sustainable Mobility</h1>
+            <p class="hero-text">Connect with verified student drivers, share routes, save money, and travel safely. Built for students, powered by community.</p>
+            <div class="hero-buttons">
+                <button class="btn-gradient">Verified drivers</button>
+                <button class="btn-gradient">Smart matching</button>
+                <button class="btn-gradient">Secure payments</button>
+                <button class="btn-gradient">Ride requests</button>
+                <button class="btn-gradient">Student-focused</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">What you can do</h2>
+            <div class="grid-layout">
+                <!-- Se agregaron iconos a las cajas de servicio -->
+                <div class="card-white">
+                    <div class="card-icon"><img src="./img/woman-hailing-taxi-driver-waving-260nw-2687195635.jpg" width="200 alt="Icono"></div>
+                    <p>Find drivers near your route</p>
+                </div>
+                <div class="card-white">
+                    <div class="card-icon"><img src="./img/istockphoto-1163993432-612x612.jpg" width="180" alt="Icono"></div>
+                    <p>Share rides and split costs</p>
+                </div>
+                <div class="card-white">
+                    <div class="card-icon"><img src="./img/187405910-aplicaciones-de-navegación-ilustraciones-de-vectores-de-dibujos-animados-aislados.jpg" width="120" alt="Icono"></div>
+                    <p>Chat and coordinate trips</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">How it works</h2>
+            <div class="grid-layout">
+                <!-- Se agregaron los iconos (muñequitos) a las cajas de pasos -->
+                <div class="card-white">
+                    <div class="step-icon"><img src="./img/5949930.png" width="100" alt="Paso 1"></div>
+                    <p>1. Sign up</p>
+                </div>
+                <div class="card-white">
+                    <div class="step-icon"><img src="./img/coche-su-ruta-viaje-o-pista-marcador-ubicacion-verde-rojo-ilustracion-vectorial-concepto-viaje_118339-1211.avif" width="210" alt="Paso 2"></div>
+                    <p>2. Match routes</p>
+                </div>
+                <div class="card-white">
+                    <div class="step-icon"><img src="./img/road-trip-car-happy-people-600nw-2521262713.webp" width="180" alt="Paso 3"></div>
+                    <p>3. Travel together</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-screenshot">
+        <div class="container">
+            <img src="./img/img.png" alt="App Joint" class="app-image">
+        </div>
+    </section>
+
+<!-- MODAL DE FAQ ACTUALIZADO -->
+<div id="faq-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 class="modal-title">Frequently Asked Questions</h2>
+        
+        <div class="faq-layout">
+            <div class="faq-side-image">
+                <img src="./img/cara-mujer-confundida-ilustracion-vector-plano-simple-concepto-problema-dilema-pregunta-aislado-negocio-personaje-dibujos-animados-blanco-que-pide-marca-analisis_550143-1530.avif" alt="FAQ Illustration">
+            </div>
+            
+            <div class="faq-questions">
+                <div class="faq-item active">
+                    <div class="faq-header">
+                        <h3>How does Joint work?</h3>
+                        <span class="faq-icon">×</span>
+                    </div>
+                    <div class="faq-body">
+                        <p>Joint connects students with similar routes. You can find drivers or passengers, request a ride, and travel together safely.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>What is the business model?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-body">
+                        <p>We charge a small commission per ride and partner with universities through licenses.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>Is Joint safe?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-body">
+                        <p>All users are verified with university credentials to ensure a secure community.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>Who can use Joint?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-body">
+                        <p>Joint is exclusively for university students and staff.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>How do payments work?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-body">
+                        <p>Payments are handled securely through the app's integrated wallet.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-header">
+                        <h3>Can I be both driver and passenger?</h3>
+                        <span class="faq-icon">+</span>
+                    </div>
+                    <div class="faq-body">
+                        <p>Yes, you can switch roles easily depending on your needs for the day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container footer-grid">
+        <!-- Columna 1: Logo y Redes -->
+        <div class="footer-column">
+            <div class="logo footer-logo">
+                <img src="./img/Copia de Joint.png" alt="Logo Joint">
+                <span>Joint</span>
+            </div>
+            <p class="footer-description">
+                Connecting students for a safer, cheaper, and more sustainable way to travel.
+            </p>
+          <div class="social-links">
+             <a href="https://www.instagram.com/joint._corp?igsh=YTZ2dWU2cGEwZGVn&utm_source=qr" target="_blank">
+        <img src="./img/icono-logotipo-vector-instagram-logotipo-redes-sociales_901408-392.avif" alt="Instagram">
+    </a>
+</div>
+
+        <!-- Columna 2: Navegación -->
+        <div class="footer-column">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#how-it-works">How it works</a></li>
+                <li><a href="#" id="footer-faq">FAQ</a></li>
+            </ul>
+        </div>
+
+        <!-- Columna 3: Contacto -->
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+                <li>+593 99 209 2078</li>
+                <li>+593 98 089 9591</li>
+                <li>+593 96 373 1451</li>
+                <li>Portoviejo, Ecuador</li>
+            </ul>
+        </div>
+
+
+    <!-- Barra inferior -->
+    <div class="footer-bottom">
+        <div class="container bottom-flex">
+            <p>&copy; 2026 Joint. All rights reserved.</p>
+            <div class="legal-links">
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
